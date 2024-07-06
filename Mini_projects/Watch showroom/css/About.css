@@ -1,0 +1,52 @@
+*{
+    text-decoration: none;
+    }
+    .navbar{
+    background-color: orange;
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+    .navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .logo a{
+    font-size: 35px;
+    font font-weight: 600;
+    color: black;
+    margin-left: 30px;
+    }
+    li{
+    list-style: none;
+    display: inline-block;
+    }
+    li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    }
+    li a:hover{
+    color:black;
+    }
+    h1{
+    font-family: bold;
+    color: orange;
+    }
+    h2{
+    font-family: bold;
+    color: orange;
+    }
+    p{
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    }
+    body{
+    background: url(https://img.freepik.com/premium-photo/watch-vintagepocket-with-smoke-black-background_309761-600.jpg);
+    background-size: 1200px;
+    }
+    </style>
+    

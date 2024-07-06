@@ -1,0 +1,49 @@
+*{
+    text-decoration: none;
+}
+.navbar{
+    background-color: orange;
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+    margin-left: 30px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+li a:hover{
+    color: black;
+}
+body{
+    padding-right: 50px;
+    background: url('https://media.istockphoto.com/id/672291718/photo/dark-gears-background.webp?b=1&s=170667a&w=0&k=20&c=fyUjJ1AR7h3ISk-wAjCZrk3r3qdrS9sdZAmthFE0mJU=');
+    background-size: cover;
+    color: white;
+}
+.content{
+    width: 700px;
+}
+.content h2{
+    padding-top: 200px;
+    padding-left: 300px;
+    font-family: italic;
+    color: rosybrown;
+    font-size: 30px;
+}

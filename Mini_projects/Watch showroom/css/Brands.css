@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: :border-box;
+    font-style: sans-serif;
+    text-decoration: none;
+    }
+    .navbar{
+    background-color: orange;
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+    .navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .logo a{
+    font-size: 35px;
+    font font-weight: 600;
+    color: black;
+    margin-left: 30px;
+    }
+    li{
+    list-style: none;
+    display: inline-block;
+    }
+    li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    }
+    li a:hover{
+    color:black;
+    }
+    body{
+    background 
+    :url("https://png.pngtree.com/thumb_back/fh260/background/20230415/pngtree-website-technologyline-dark-background-image_2344719.jpg"); 
+    background-size: cover; 
+    }
+    h1{
+    color:pink;
+    font-family: sans-serif;
+    padding-top: 25px;
+    }
+    .card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:25px;
+    margin-top: 100px;
+    }
+    .card{
+    width:325px;
+     background-color: white smoke;
+     border-radius:10px;
+     box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+     overflow: hidden;
+     transition: transform 0.6s ease;
+    }
+    .card:hover{
+    transform: translateY(-20px);
+    }
+    .card img{
+    width:100%;
+    height:auto;
+    object-fit: cover;
+    }
+    .card-content{
+    padding: 20px;
+    }
+    .card-content h2{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+    }
+    .card-content p{
+    font-size: 15px;
+    color:white;
+    margin-bottom: 20px;
+    }
+    .card-button{
+    display: inline-block;
+    background-color:blue;
+    color:white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding:8px 16px;
+    }
+    

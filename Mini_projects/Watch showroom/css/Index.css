@@ -1,0 +1,156 @@
+*{
+    text-decoration: none;
+    }
+    .main{
+    height: 120vh;
+    background-size: cover;
+    width: 100vw;
+    background: 
+    url("https://png.pngtree.com/thumb_back/fw800/background/20220819/pngtree-old-watch-nearbook-art-novel-illumination-photo-image_33345380.jpg");
+    background-size: 1400px;
+    }
+    .navbar{
+    background-color: orange;
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+    .navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .logo a{
+    font-size: 35px;
+    font font-weight: 600;
+    color: black;
+    margin-left: 30px;
+    }
+    li{
+    list-style: none;
+    display: inline-block;
+    }
+    li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    }
+    li a:hover{
+    color:black;
+    }
+    .content{
+    width: 700px;
+    }
+    .content h1{
+    color: yellow;
+    font-size: 50px;
+    padding-left: 200px;
+    padding-top: 70px;
+    }
+    .OMEGA{
+    color: white;
+    font-size: 60px;
+    }
+    .para{
+    color: white;
+    padding-left: 200px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    }
+    .buttondiv{
+    padding-left: 200px;
+    margin-top: 20px;
+    }
+    .button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    }
+    .button:hover{
+    background-color: pink;
+    color: white;
+    }
+    .buttondiv a{
+    text-decoration: none;
+    color: orange;
+    font-size: 15px;
+    font-weight: bold;
+    }
+    .emi{
+    font-weight: bold;
+    }
+    .form{
+    position: absolute;
+    top: 200px;
+    left: 1100px;
+    }
+    .form span{
+    color: white;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px 90px;
+    border-radius: 10px;
+    }
+    form input{
+    height: 20px;
+    width: 300px;
+    margin-top: 20px;
+    padding-top: 10px;
+    background-color: transparent;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    }
+    form input:focus{
+    outline: none;
+    }
+    .form button h3{
+    font-weight: bold;
+    font-size: 25px;
+    color: orange;
+    }
+    .form button:hover{
+    background-color: pink;
+    color: white;
+    }
+    .form button{
+    padding: 0px 60px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 30px;
+    cursor: pointer;
+    }
+    .form p{
+    color: white;
+    font-family:sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    }
+    .form p a{
+    text-decoration: none;
+    color: orange;
+    }
+    .liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    }
+    .form a{
+    text-decoration: none;
+    color: white;
+    }
+    .form ion-icon{
+    color:white;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+    }
+    .form ion-icon:hover{
+    color: orange;
+    }
